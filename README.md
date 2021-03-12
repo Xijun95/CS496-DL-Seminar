@@ -359,7 +359,7 @@ The following is the result figure of HC-LSTM model used on stock VC:
 
 We can see that the our model provides a very precise prediction. Following the trading strategy and hill-climbing thresholds choosing strategy, we get an average 11.62% gain percent, and 35.82% max gain percent. 
 
-More results of different stocks will be shown in ./src directory with the name "*_stock", we can see from all these results that our model did a good job in prediction, and we get the positive gain in most of the cases.
+**More results** of different stocks will be shown in ./src directory with the name "*_stock", we can see from all these results that our model did a good job in prediction, and we get the positive gain in most of the cases.
 
 
 ## Commands for Using the Model
