@@ -368,7 +368,7 @@ More results of different stocks will be shown in ./src directory with the name 
 
 The traing and testing has been combined in the same python script -- train.py , after you change the absolute path directory in the script (or you can change the codes a little bit to input the pathes in the commands, either way works), you can directly run:
 
-python train.py
+*python train.py*
 
 you will get the model trained and tested, saving out the result figure and a log.txt file with all the important information written in.
 
