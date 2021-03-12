@@ -1,6 +1,6 @@
 # CS496-DL-Seminar
 
-The course final delivery for replicating the paper: "Deep architectures for long-term stock price prediction with a heuristic-based strategy for trading simulations".
+The final delivery for replicating the paper: "Deep architectures for long-term stock price prediction with a heuristic-based strategy for trading simulations".
 
 ## Description of the paper
 
