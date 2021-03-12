@@ -370,7 +370,7 @@ The traing and testing has been combined in the same python script -- train.py ,
 
 *python train.py*
 
-you will get the model trained and tested, saving out the result figure and a log.txt file with all the important information written in.
+you will get the model trained and tested, saving out the result figure of the stock you choose and a log.txt file with all the important information written in.
 
 
 
