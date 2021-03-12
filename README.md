@@ -226,7 +226,14 @@ testScore = model.evaluate(X_test, y_test, verbose=0)
 print('Test Score: %.2f MSE (%.2f RMSE)' % (testScore[0], math.sqrt(testScore[0])))
 ```
 
-Now we get our model built and trained, we need to design the trading strategy:
+You can then use the trained model to make the prediction on the val and test datasets:
+```python
+# predicted validation and test
+p_val = model.predict(X_val)
+p_test = model.predict(X_test)
+```
+
+Now we get our model built, trained and tested, we need to design the trading strategy:
 
 ```python
 # Input: actual close price sequence (N, ), predicted close price sequence (N, 1), epsilon_1 (scalar), epsilon_2 (scalar)
@@ -358,5 +365,13 @@ More results of different stocks will be shown in ./src directory with the name 
 
 
 ## Commands for Using the Model
+
+The traing and testing has been combined in the same python script -- train.py , after you change the absolute path directory in the script (or you can change the codes a little bit to input the pathes in the commands, either way works), you can directly run:
+
+python train.py
+
+you will get the model trained and tested, saving out the result figure and a log.txt file with all the important information written in.
+
+
 
 
