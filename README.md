@@ -20,6 +20,9 @@ Based on the paper's description, the problem can be separated into three steps:
 
 The Datasets used in the paper is text-based type, a sample of the dataset is shown below:
 
+![Image of data_sample]
+(https://github.com/Xijun95/CS496-DL-Seminar/blob/55a9cbd30e26e9fd37f1290967089cc8d454c533/src/data_sample.png)
+
 
 ## Relevance
 ## Methodologies
